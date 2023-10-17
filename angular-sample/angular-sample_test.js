@@ -4,7 +4,7 @@ Scenario('Unificado', ({ I }) => {
     //I.amOnPage('http://localhost:4200');
 	I.amOnPage('https://gc-miang-z35laqzizq-uc.a.run.app');
 	I.click('Register');
-  I.amOnPage('/account/register')
+  //I.amOnPage('/account/register')
   I.fillField('[formcontrolname="firstName"]','Emilia');
 	I.fillField('[formcontrolname="lastName"]','Schwindt');
 	I.fillField('[formcontrolname="username"]','emilia');
