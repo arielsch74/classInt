@@ -8,4 +8,5 @@ RUN npm run build --prod
 FROM nginx:alpine
 COPY --from=node /app/dist/angular-registration-login-example /usr/share/nginx/html
 
+
 EXPOSE 80
