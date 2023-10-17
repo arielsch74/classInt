@@ -13,7 +13,7 @@ exports.config = {
   helpers: {
     Playwright: {
       browser: 'chromium',
-      url: 'http://localhost:4200',
+      url: 'https://gc-miang-z35laqzizq-uc.a.run.app/',
       show: false
     }
   },
