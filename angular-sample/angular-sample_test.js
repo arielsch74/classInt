@@ -5,8 +5,7 @@ Scenario('Unificado', ({ I }) => {
 	I.amOnPage('https://gc-miang-z35laqzizq-uc.a.run.app/');
 	I.click('Register');
 	I.amOnPage('/account/register')
-    I.see('Login');
-	I.fillField('[formcontrolname="firstName"]','emilia');
+  I.fillField('[formcontrolname="firstName"]','emilia');
 	I.fillField('[formcontrolname="lastName"]','Schwindt');
 	I.fillField('[formcontrolname="username"]','emilia');
 	I.fillField('[formcontrolname="password"]','1234567890');
